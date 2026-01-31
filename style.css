@@ -108,14 +108,15 @@ body {
 }
 
 .couple-frame {
-  width: 210px;
-  height: 210px;
+  width: 260px;
+  height: 260px;
   margin: 30px auto;
-  border-radius: 60%;
-  padding: 6px;
+  border-radius: 50%;
+  padding: 8px;
   background: linear-gradient(135deg, #b88c5a, #f3d6b1);
   animation: softFloat 6s ease-in-out infinite;
 }
+
 
 .couple-frame img {
   width: 100%;
@@ -124,6 +125,12 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .couple-frame {
+    width: 200px;
+    height: 200px;
+  }
+}
 
 /* ===================== STORY / ENGAGEMENT ===================== */
 .story-section {
@@ -627,7 +634,7 @@ body {
 
 .salam-text {
   margin-top: 18px;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Amiri', serif;
   color: #d4af37; /* gold */
   text-align: center;
@@ -706,8 +713,8 @@ body {
 
 .salam-bg {
   position: absolute;
-  height: 300px;
-  width: 330px;
+  height: 400px;
+  width: 530px;
   opacity: 0.8;
   z-index: 1;
 }
@@ -715,7 +722,7 @@ body {
 .salam-text {
   position: relative;
   z-index: 2;
-  font-size: 1.7rem;
+  font-size: 3rem;
   font-family: 'Amiri', serif;
   color: #d4af37;
   text-align: center;
