@@ -132,6 +132,19 @@ body {
   }
 }
 
+/* ================= WELCOME BACKGROUND IMAGE OVERLAY ================= */
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("holding-hands.png"); /* your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.12;   /* low visibility */
+  z-index: 0;
+}
 /* ===================== STORY / ENGAGEMENT ===================== */
 .story-section {
   padding: 120px 20px;
@@ -766,4 +779,5 @@ body {
     opacity: 1;
   }
 }
+
 
