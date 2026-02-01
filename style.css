@@ -702,7 +702,7 @@ body {
 }
 
 /* ================= SALAM BACKGROUND DESIGN ================= */
-
+/*
 .salam-wrapper {
   position: relative;
   margin-top: 40px;
@@ -743,7 +743,7 @@ body {
   }
 }
 
-
+*/
 /* ================= GOLDEN GLOW FOR QURAN QUOTES ================= */
 
 .story-text.dua,
@@ -766,3 +766,4 @@ body {
     opacity: 1;
   }
 }
+
