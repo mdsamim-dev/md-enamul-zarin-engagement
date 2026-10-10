@@ -79,12 +79,14 @@ body {
 }
 
 #names {
+
   text-align: center;
   font-family: 'Great Vibes', cursive;
   font-size: 4.2rem;
   color: #8b2f4a;
   text-shadow: 0 0 20px rgba(179, 136, 100, 0.3);
   animation: softFloat 5s ease-in-out infinite;
+  margin-top: 120px;
 }
 
 .middle-line {
